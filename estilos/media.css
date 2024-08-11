@@ -1,0 +1,91 @@
+ /*---------------- MEDIA QUERIES------------------*/
+
+ @media only screen and (max-width:800px){
+    #logo img{
+      display: flex;
+      height: 10rem;
+      margin-top: 12%;
+      margin-left: 30%;
+      filter: drop-shadow(1px 1px 10px gray);
+    }
+  
+    #brand{
+      font-size: 3rem;
+      font-family: sans-serif;
+      display: flex;
+      float: right;
+      margin-top: 0;
+      margin-left: 14px;
+      margin-right: 30%;
+    }
+  
+    #brand #zo{
+      font-size: 3rem;
+      float: right;
+      display: flex;
+    }
+  
+    #menu{
+      display: flex;
+      float: right;
+      margin-top: 5px;
+  
+      
+    }
+  
+    #menu li a{
+      float: left;
+      display: flex;
+      font-family: sans-serif;
+      font-size: 1.25rem;
+      margin: 2px;
+    }
+    
+  }
+  
+  
+  /*
+  @media only screen and (min-width:501px) and (max-width:897px){
+    #logo img{
+      display: flex;
+      float: left;
+      height: 10rem;
+      margin-top: 10%;
+      margin-left: 40%;
+      
+      filter: drop-shadow(1px 1px 10px gray);
+    }
+  
+    #brand{
+      font-size: 3rem;
+      display: flex;
+      float: right;
+      margin-top: 10px;
+      margin-left: 14%;
+      margin-right: 29%;
+  
+    }
+  
+    #brand #zo{
+      font-size: 3rem;
+      display: flex;
+      justify-content: center;
+    }
+  
+    #menu{
+      display: flex;
+      float: right;
+      margin: 0;
+      margin-top: 5px;
+      margin-right: 25%;
+      
+    }
+  
+    #menu li a{
+      float: left;
+      display: flex;
+      font-size: 1.25rem;
+      margin: 2px;
+    }
+  }
+    */
